@@ -5,30 +5,135 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Component Library</title>
+  <link href="style.css" rel="stylesheet">
+
 </head>
 <body>
-  <h1>Karthik's Componnent Library</h1>
-  <p>This is a sample css library as a complementary session with neogCamp, which will help standardise components across projects and portfolios in the future.</p>
+    <h1>Karthik's Componnent Library</h1>
+    <p>This is a sample css library as a complementary session with neogCamp, which will help standardise components across projects and portfolios in the future.</p>
 
-  <hr>
+    <hr>
 
-  <h2>@typography</h2>
+    <h2>@typography</h2>
 
-  <h1>Heading 1 - Biggest</h1>
-  <h2>Heading 2 - Second Biggest</h2>
-  <p>Text size forparargraph. In ohter words, normal text size. usabillity - free flowing and wrap around at end like paragraph</p>
-  <samll> relatively Smaller text</samll>
+    <h1>Heading 1 - Biggest</h1>
+    <h2>Heading 2 - Second Biggest</h2>
+    <p>Text size forparargraph. In ohter words, normal text size. usabillity - free flowing and wrap around at end like paragraph</p>
+    <small> relatively Smaller text</small>
 
-  <hr>
+    <hr>
 
-  <h2>@containers</h2>
+    <h2>@containers</h2>
 
-  <h3>Fluid container</h3>
-  <div>This is a centered container which will go till a specific width</div>
+    <h3>Fluid container</h3>
+    <div class= "container">This is a centered container which will go till a specific width</div>
 
-  <h3>centered container</h3>
-  <div>This is a centered container which will go till a specific width</div>
+    <h3>Centered container</h3>
+    <div class = "container-centered">This is a centered container which will go till a specific width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class ="link link-primary" href="https://www.google.com" target = "_blank">Primary link</a>
+    <a class = "link link-secondary" href="https://www.google.com" target = "_blank">Secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h2>unordererd list</h2>
+    <ul class="list-non-bullet">
+      <li>Unordererd Item One</li>
+      <li>Unordererd Item Two</li>
+      <li>Unordererd Item Three</li>
+      <li>Unordererd Item Four</li>
+    </ul>
 
 
-</body>
+    <h2>unordererd inline list</h2>
+    <ul>
+      <li class = "list-item-inline">Unordererd Inline Item Two</li>
+      <li class = "list-item-inline">Unordererd Inline Item Three</li>
+      <li class = "list-item-inline">Unordererd Inline Item Four</li>
+      <li class = "list-item-inline">Unordererd Inline Item One</li>
+    </ul>
+
+
+
+    <h2>reverse ordererd list</h2>
+    <ol reversed>
+      <li>Ordererd Item One</li>
+      <li>Ordererd Item Two</li>
+      <li>Ordererd Item Three</li>
+      <li>Ordererd Item Four</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+    <nav class="navigation container">
+      <div class= "nav-brand">My Brand</div>
+      <ul class = "list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class= "link link-active" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class= "link" href="/">Product</a>
+        </li>
+        <li class="list-item-inline">
+          <a class= "link" href="/">About</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+      <!--relative path-->
+      <img class = "hero-image" src ="images/Hero.svg">
+      <!--absolute path-->
+      <img class = "hero-image" src ="https://holyokecodes.org/wp-content/uploads/2016/04/htmlcss.png">
+      <h1 class="hero-heading">My full stack <span class =" header-inverted">roadmap</span></h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+    <section class= "section">
+      <div class="container container-center">
+        <h1>white section</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+    <section class = "section ow">
+      <div class="container container-center">
+        <h1>off-white section</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class = "footer">
+      <div class = "footer-header">Some small heading inside footer</div>
+      <ul class="list-non-bullet">
+        <li class ="list-item-inline"><a class = "link" href="/">Facebook</a></li>
+        <li class ="list-item-inline"><a class = "link" href="/">Twitter</a></li>
+        <li class ="list-item-inline"><a class = "link" href="/">Instagram</a></li>
+        <li class ="list-item-inline"><a class = "link" href="/">LinkedIn</a></li>
+      </ul>
+    </footer>
+
+
+  </body>
 </html>
