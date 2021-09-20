@@ -8,10 +8,19 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: white;
-  color: black;
+  margin:0px;
+
 }
 
+hr {
+  margin: 0px;
+}
+
+/* spaces */
+
+.margin-med {
+  margin: 2rem;
+}
 
 /* containers*/
 .container-center {
@@ -27,6 +36,7 @@ body {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+;
 }
 
 .link-primary {
@@ -61,6 +71,7 @@ body {
   color: white;
   padding: 1rem;
   border-bottom-left-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .navigation .nav-brand{
@@ -82,8 +93,9 @@ color:white;
 
 /* header */
 
-.head {
+.hero {
   padding: 2rem;
+  padding-top: 5rem;
 }
 
 .hero-image {
@@ -101,11 +113,12 @@ color:white;
 }
 
 /* section */
-
+.section {
+  padding:1rem;
+}
 .section h1, h2, h3 {
   text-align: center;
-  padding: 2rem;
-
+  padding: 1rem;
 }
 
 
@@ -129,8 +142,9 @@ color:white;
 .footer .ul {
   padding-inline-start: 0px;
 }
-.footer-header {
-
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
 }
 
 .social-links {
