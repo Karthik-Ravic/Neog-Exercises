@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #00A9F5;
+  --gray: #6B7280;
+  --off-white: #E5E7EB;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  margin:0px;
+
+}
+
+hr {
+  margin: 0px;
+}
+
+/* spaces */
+
+.margin-med {
+  margin: 2rem;
+}
+
+/* containers*/
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* links */
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: var(--primary-color, black);
+  color: white;
+}
+
+.link-secondary {
+  color: (--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+
+/* links */
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+
+/* nav */
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navigation .nav-brand{
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+color:white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+
+/* header */
+
+.hero {
+  padding: 2rem;
+  padding-top: 5rem ;
+}
+
+.hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading{
+  color: var(--gray);
+}
+
+.hero .hero-heading .header-inverted {
+  color: var(--primary-color);
+}
+
+/* section */
+.section {
+  padding:1rem;
+}
+.section h1, h2, h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.footer{
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+.footer .ul {
+  padding-inline-start: 0px;
+}
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.social-links {
+
+}

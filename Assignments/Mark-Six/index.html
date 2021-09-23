@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banana speak</title>
+  <link href="../Mark-Three-Four-Five/style.css" rel="stylesheet" type="text/css">
+  <style>
+    textarea {
+      display: block;
+      width: 80%;
+      margin: 1rem;
+      padding: 1rem;
+    }
+    #output {
+      border: 1px solid black;
+      height: 10vh;
+      width: 80%;
+      margin: 1rem;
+      padding: 1rem;
+
+    }
+  </style>
+</head>
+
+<body>
+   <nav class="navigation container">
+    <div class="nav-brand"><h1>Banana Translation</h1></div>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class="link link-active" href="../Mark-Three-Four-Five/">Home</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="../Mark-Three-Four-Five/projects.html">Projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="../Mark-seven/">Valyrian Translation</a>
+      </li>
+    </ul>
+  </nav>
+
+  <textarea
+    id="txt-input"
+    placeholder="Enter text to be translated here"></textarea>
+  <button id="btn-translate">Translate</button>
+
+  <div style="font-size: larger;"> Output will be here 👇</div>
+  <div id ="output"></div>
+
+  <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
